@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .body            
+{
+    margin:auto;
+    width:1024px;
+    padding:10px;
+    background-color:#ebebeb;
+    font-size:14px;
+    font-family:Verdana;
+}
+</style>
+</head>
+
+<body>
+    <form action="http://localhost:8000/login" method="get">
+        Enter a :
+        <input type="number" name="a" value=" " /><br>Enter b : <input type="number" name="b" value=" " /><br>
+        Operation : <select name="option">
+            <option>-Select-</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select> <br>
+        <input type="submit" nmae="Submit" value="submit" /> </form>
+</body>
+
+</html>
